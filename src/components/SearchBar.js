@@ -1,17 +1,17 @@
 import React from 'react'
-import {Button}  from 'react-native';
+//import Button from '@mui/material/Button'
+import Button from 'react-bootstrap/Button';
+
 
 function SearchBar(business, location) {
   return (
     <div>
-      <Button
-        title="Search"
-       // onPress={() => Alert.alert('Simple Button pressed')}
-      />
-      SearchBar
+      <Button variant="contained" color="primary">
+        Search
+      </Button>
     </div>
 
   )
 }
 
-export default SearchBar
+export default SearchBar;

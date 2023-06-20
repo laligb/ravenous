@@ -7,7 +7,7 @@ function BusinessList(listOfBusinesses) {
 
     <div>
       {BUSINESSES.map((business, index) => {
-        <Business key = {index} value = {business} />
+        return <Business key = {index} value = {business} />
       })}
 
 
