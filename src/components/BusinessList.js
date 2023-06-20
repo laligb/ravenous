@@ -1,15 +1,16 @@
 import React from 'react'
 import Business from './Business'
-import { BUSINESSES } from './businesses';
 
-function BusinessList(listOfBusinesses) {
+
+function BusinessList({listOfBusinesses}) {
   return (
 
-    <div>
-      {BUSINESSES.map((business, index) => {
-        return <Business key = {index} value = {business} />
-      })}
-
+    <div className='App-cards'>
+      {listOfBusinesses.map((business, index) => (
+        <div key={index} className="App-card">
+          <Business business={business} />
+        </div>
+      ))}
 
     </div>
   )

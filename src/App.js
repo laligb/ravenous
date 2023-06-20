@@ -3,6 +3,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import SearchBar from './components/SearchBar';
 import BusinessList from './components/BusinessList';
+import { BUSINESSES } from './components/businesses';
 
 function App() {
   return (
@@ -13,10 +14,13 @@ function App() {
         <img src='/images/banner.png' className='App-banner' alt='banner'/>
 
         <SearchBar />
-
-
-
       </header>
+
+
+        <BusinessList listOfBusinesses={BUSINESSES} />
+
+
+      <footer className='App-footer'></footer>
     </div>
   );
 }

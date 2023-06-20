@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Business(business) {
+function Business({business}) {
   return (
     <div>
       <img src={business.imageSrc} alt='pic'/>
