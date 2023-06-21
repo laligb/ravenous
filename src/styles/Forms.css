@@ -1,0 +1,31 @@
+.search-form{
+  position: absolute;
+  padding: 15px;
+  margin-top: -200px;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.search-item{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: rgb(54, 42, 39) solid;
+  width: 300px;
+}
+
+.search-item:active{
+  border-color: crimson;
+}
+
+.search-button{
+  padding: 10px;
+  background-color: rgb(220, 76, 36);
+  border: rgb(54, 42, 39) solid;
+  border-radius: 5px;
+}
+
+.search-button:hover{
+  background-color: crimson;
+  color: white;
+}

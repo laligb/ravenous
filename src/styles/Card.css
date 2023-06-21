@@ -8,9 +8,11 @@
 
 .App-card {
   width: 100%;
+  border-radius: 5px;
 }
 
 .App-card img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }

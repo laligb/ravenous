@@ -12,6 +12,7 @@ function App() {
         <img src="/images/logo.png" className="App-logo" alt="logo" />
 
         <img src='/images/banner.png' className='App-banner' alt='banner'/>
+        <h1 className='title'>Search your restaurant...</h1>
 
         <SearchBar />
       </header>
